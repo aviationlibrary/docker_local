@@ -24,7 +24,7 @@
 		<log4j.version>1.2.17</log4j.version>
 		<sonar.host.url>http://172.31.16.56:9000</sonar.host.url>
 		<sonar.login>admin</sonar.login>
-		<sonar.password>sonar</sonar.password>
+		<sonar.password>Konami001$</sonar.password>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
@@ -98,13 +98,13 @@
 	    <repository>
 	      <id>acada-release</id>
 	      <name>ACADA Learning release Nexus Repository</name>
-	      <url>http://nexus:8081/repository/cohort16-release/</url>
+	      <url>http://nexus:8081/repository/maven_deploy_release//</url>
 	    </repository>
 
 	    <snapshotRepository>
 	      <id>acada-snapshot</id>
 	      <name>ACADA Learning snapshot Nexus Repository </name>
-	      <url>http://nexus:8081/repository/cohort16-snapshot/</url>
+	      <url>http://nexus:8081/repository/maven_deploy_snapshot/</url>
 	    </snapshotRepository>
 
 	</distributionManagement>
